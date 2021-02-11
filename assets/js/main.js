@@ -271,7 +271,7 @@
             ],
         });
 
-		// Go to Top
+	// Go to Top
         $(function(){
             // Scroll Event
             $(window).on('scroll', function(){
@@ -291,7 +291,9 @@
                 $("html, body").animate({ scrollTop: "0" },  500);
             });
             
-            
+            $('#what').on('touchstart', function(){
+                $(this).css('background-color','#a4bc32')
+            });  
     
         });
 
@@ -334,7 +336,7 @@
         $('html, body').stop().animate({scrollTop: seccionOffsetTop}, 1000);
 
         $('#btnpremios').css('background','#ffde29');
-        $('#btnpremios').css('background','#ffde29');
+ 
 
     });
     
