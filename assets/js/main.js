@@ -292,7 +292,7 @@
             });
             
             $('#what').on('touchstart', function(){
-                $(this).css('background-color','#a4bc32')
+                $(this).css('color','#a4bc32')
             });  
     
         });
